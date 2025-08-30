@@ -1,4 +1,0 @@
-kernel/drivers/battery_v2/sec_battery.ko
-kernel/drivers/battery_v2/sec_battery_sysfs.ko
-kernel/drivers/battery_v2/sec_battery_dt.ko
-kernel/drivers/battery_v2/sec_battery_ttf.ko

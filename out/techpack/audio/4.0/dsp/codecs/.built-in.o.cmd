@@ -1,1 +1,0 @@
-cmd_techpack/audio/4.0/dsp/codecs/built-in.o :=   rm -f techpack/audio/4.0/dsp/codecs/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD techpack/audio/4.0/dsp/codecs/built-in.o techpack/audio/4.0/dsp/codecs/native_dlkm.o 

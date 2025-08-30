@@ -1,1 +1,0 @@
-cmd_crypto/crypto_acompress.o :=  rm -f crypto/crypto_acompress.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD crypto/crypto_acompress.o crypto/acompress.o crypto/scompress.o 

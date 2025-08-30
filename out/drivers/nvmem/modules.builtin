@@ -1,3 +1,0 @@
-kernel/drivers/nvmem/nvmem_core.ko
-kernel/drivers/nvmem/nvmem_qfprom.ko
-kernel/drivers/nvmem/qcom-spmi-sdam.ko

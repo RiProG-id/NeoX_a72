@@ -1,1 +1,0 @@
-cmd_crypto/asymmetric_keys/asymmetric_keys.o :=  rm -f crypto/asymmetric_keys/asymmetric_keys.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD crypto/asymmetric_keys/asymmetric_keys.o crypto/asymmetric_keys/asymmetric_type.o crypto/asymmetric_keys/restrict.o crypto/asymmetric_keys/signature.o 

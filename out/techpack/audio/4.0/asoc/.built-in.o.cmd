@@ -1,1 +1,0 @@
-cmd_techpack/audio/4.0/asoc/built-in.o :=   rm -f techpack/audio/4.0/asoc/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD techpack/audio/4.0/asoc/built-in.o techpack/audio/4.0/asoc/codecs/built-in.o techpack/audio/4.0/asoc/platform_dlkm.o techpack/audio/4.0/asoc/machine_dlkm.o 

@@ -1,1 +1,0 @@
-cmd_drivers/bluetooth/hci_uart.o :=  rm -f drivers/bluetooth/hci_uart.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/bluetooth/hci_uart.o drivers/bluetooth/hci_ldisc.o 

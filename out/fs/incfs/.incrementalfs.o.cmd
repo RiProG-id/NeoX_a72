@@ -1,1 +1,0 @@
-cmd_fs/incfs/incrementalfs.o :=  rm -f fs/incfs/incrementalfs.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD fs/incfs/incrementalfs.o fs/incfs/data_mgmt.o fs/incfs/format.o fs/incfs/integrity.o fs/incfs/main.o fs/incfs/vfs.o 

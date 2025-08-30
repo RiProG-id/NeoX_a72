@@ -1,1 +1,0 @@
-cmd_drivers/char/hw_random/rng-core.o :=  rm -f drivers/char/hw_random/rng-core.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/char/hw_random/rng-core.o drivers/char/hw_random/core.o 
