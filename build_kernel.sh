@@ -23,7 +23,7 @@ CONFIG="a72q_eur_open_defconfig"
 CHAT_ID="[your id telegram]"
 BOT_TOKEN="[id bot telegram]:[token bot telegram]"
 IMAGE_PATH="out/arch/arm64/boot/Image.gz"
-BUILD_HOST="NeoX"
+BUILD_HOST="Vpc"
 BUILD_USER="VelocityFox22"
 
 # =========[ Path Toolchain ]=========
