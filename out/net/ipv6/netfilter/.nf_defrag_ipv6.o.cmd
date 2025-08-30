@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/nf_defrag_ipv6.o :=  rm -f net/ipv6/netfilter/nf_defrag_ipv6.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD net/ipv6/netfilter/nf_defrag_ipv6.o net/ipv6/netfilter/nf_defrag_ipv6_hooks.o net/ipv6/netfilter/nf_conntrack_reasm.o 

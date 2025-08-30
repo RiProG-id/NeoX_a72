@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/built-in.o :=   rm -f sound/soc/intel/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD sound/soc/intel/built-in.o sound/soc/intel/boards/built-in.o 

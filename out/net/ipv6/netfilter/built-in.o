@@ -1,0 +1,30 @@
+!<thin>
+//                                              270       `
+ip6_tables.o/
+ip6table_filter.o/
+ip6table_mangle.o/
+ip6table_raw.o/
+nf_conntrack_l3proto_ipv6.o/
+nf_conntrack_proto_icmpv6.o/
+nf_defrag_ipv6_hooks.o/
+nf_conntrack_reasm.o/
+nf_socket_ipv6.o/
+nf_log_ipv6.o/
+nf_reject_ipv6.o/
+nf_dup_ipv6.o/
+ip6t_rpfilter.o/
+ip6t_REJECT.o/
+/0              0           0     0     644     34944     `
+/14             0           0     0     644     5552      `
+/33             0           0     0     644     5328      `
+/52             0           0     0     644     4824      `
+/68             0           0     0     644     12944     `
+/97             0           0     0     644     6048      `
+/126            0           0     0     644     5384      `
+/150            0           0     0     644     11608     `
+/172            0           0     0     644     3048      `
+/190            0           0     0     644     11168     `
+/205            0           0     0     644     7528      `
+/223            0           0     0     644     3528      `
+/238           /0           0     0     644     4320      `
+/255            0           0     0     644     3816      `

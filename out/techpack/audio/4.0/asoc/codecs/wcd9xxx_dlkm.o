@@ -1,0 +1,14 @@
+!<thin>
+//                                              100       `
+wcd-clsh.o/
+wcdcal-hwdep.o/
+wcd9xxx-soc-init.o/
+wcd-dsp-utils.o/
+wcd-dsp-mgr.o/
+audio-ext-clk-up.o/
+/0              0           0     0     644     16576     `
+/12             0           0     0     644     9192      `
+/28             0           0     0     644     2856      `
+/48            /0           0     0     644     6840      `
+/65             0           0     0     644     26840     `
+/80             0           0     0     644     18192     `

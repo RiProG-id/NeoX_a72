@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/nf_conntrack_ipv6.o :=  rm -f net/ipv6/netfilter/nf_conntrack_ipv6.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD net/ipv6/netfilter/nf_conntrack_ipv6.o net/ipv6/netfilter/nf_conntrack_l3proto_ipv6.o net/ipv6/netfilter/nf_conntrack_proto_icmpv6.o 

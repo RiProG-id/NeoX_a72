@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-ce-cipher.o :=  rm -f arch/arm64/crypto/aes-ce-cipher.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD arch/arm64/crypto/aes-ce-cipher.o arch/arm64/crypto/aes-ce-core.o arch/arm64/crypto/aes-ce-glue.o 

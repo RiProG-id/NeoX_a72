@@ -1,0 +1,1 @@
+cmd_drivers/battery/built-in.o :=   rm -f drivers/battery/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/battery/built-in.o drivers/battery/fuelgauge/built-in.o drivers/battery/charger/built-in.o drivers/battery/common/built-in.o 

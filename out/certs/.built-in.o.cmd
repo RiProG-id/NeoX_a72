@@ -1,0 +1,1 @@
+cmd_certs/built-in.o :=   rm -f certs/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD certs/built-in.o certs/system_keyring.o certs/system_certificates.o 

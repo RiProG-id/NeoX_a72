@@ -1,0 +1,1 @@
+cmd_crypto/crypto_algapi.o :=  rm -f crypto/crypto_algapi.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD crypto/crypto_algapi.o crypto/algapi.o crypto/scatterwalk.o crypto/proc.o 

@@ -1,0 +1,1 @@
+cmd_security/smack/smack.o :=  rm -f security/smack/smack.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD security/smack/smack.o security/smack/smack_lsm.o security/smack/smack_access.o security/smack/smackfs.o 

@@ -1,0 +1,1 @@
+cmd_crypto/ecdh_generic.o :=  rm -f crypto/ecdh_generic.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD crypto/ecdh_generic.o crypto/ecc.o crypto/ecdh.o crypto/ecdh_helper.o 

@@ -1,0 +1,1 @@
+cmd_fs/pstore/built-in.o :=   rm -f fs/pstore/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD fs/pstore/built-in.o fs/pstore/pstore.o fs/pstore/ss_platform_log.o fs/pstore/ramoops.o 

@@ -1,0 +1,1 @@
+cmd_drivers/base/power/opp/built-in.o :=   rm -f drivers/base/power/opp/built-in.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD drivers/base/power/opp/built-in.o drivers/base/power/opp/core.o drivers/base/power/opp/cpu.o drivers/base/power/opp/of.o 

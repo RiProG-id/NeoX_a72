@@ -1,0 +1,1 @@
+cmd_sound/usb/snd-usbmidi-lib.o :=  rm -f sound/usb/snd-usbmidi-lib.o; /root/a72_krenul/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-ar rcSTPD sound/usb/snd-usbmidi-lib.o sound/usb/midi.o 
