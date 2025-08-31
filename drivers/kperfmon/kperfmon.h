@@ -1,32 +1,60 @@
-#define FLAG_NOTHING			0
-#define FLAG_READING			1
-#define USE_WORKQUEUE			1
-#define NOT_USED			0
+#define FLAG_NOTHING                    0
+#define FLAG_READING                    1
+#define USE_WORKQUEUE                   1
+#define NOT_USED                        0
 
-#define byte				unsigned char
+#define byte                            unsigned char
+#ifndef PERFLOG_BUFF_STR_MAX_SIZE
+#define PERFLOG_BUFF_STR_MAX_SIZE 255
+#endif
 
 struct tRingBuffer {
-	byte *data;
-	long length;
-	long start;
-	long end;
-	long position;
+    byte *data;
+    long length;
+    long start;
+    long end;
+    long position;
 
-	struct mutex mutex;
-	long debugger;
-	bool status;
+    struct mutex mutex;
+    long debugger;
+    bool status;
+};
+
+struct _Timestamp {
+    int month;
+    int day;
+    int hour;
+    int minute;
+    int second;
+    int msecond;
+};
+
+struct _PLogPacket {
+    struct _Timestamp timestamp;
+    int type;
+    int id;
+    int pid;
+    int tid;
+    int context_length;
+    char context_buffer[PERFLOG_BUFF_STR_MAX_SIZE];
 };
 
 #if defined(USE_WORKQUEUE)
+/* Dummy definition to replace missing perflog.h */
+union _uPLogPacket {
+    unsigned char stream[1024];
+    struct _PLogPacket itemes;  
+};
+
 struct t_ologk_work {
-	struct work_struct ologk_work;
-	union _uPLogPacket writelogpacket;
+    struct work_struct ologk_work;
+    union _uPLogPacket writelogpacket;
 };
 #endif
 
 struct t_command {
-	char *command;
-	void (*func)(char *writebuffer);
+    char *command;
+    void (*func)(char *writebuffer);
 };
 
 #if defined(USE_MONITOR)
@@ -34,18 +62,18 @@ unsigned long mutex_rawdata[MAX_MUTEX_RAWDATA + 1][MAX_MUTEX_RAWDATA_DIGIT] = {{
 #endif
 
 int ops_write_buffer(struct tRingBuffer *buffer,
-			byte *data, unsigned long length);
+                     byte *data, unsigned long length);
 int ops_process_command(struct tRingBuffer *buffer,
-			byte *data, unsigned long length);
+                        byte *data, unsigned long length);
 
 enum {
-	SH_TYPE_PACKET,
-	SH_TYPE_COMMAND,
+    SH_TYPE_PACKET,
+    SH_TYPE_COMMAND,
 };
 
 enum {
-	SH_TYPE,
-	SH_IDX_PACKET
+    SH_TYPE,
+    SH_IDX_PACKET
 };
 
 int (*write_opts[])(struct tRingBuffer *buffer,

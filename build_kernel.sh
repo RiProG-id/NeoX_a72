@@ -20,15 +20,15 @@ log_error()   { echo -e "${RED}[ERR]${RESET} $1"; }
 
 # =========[ Konfigurasi Awal ]=========
 CONFIG="a72q_eur_open_defconfig"
-CHAT_ID="[your id telegram]"
-BOT_TOKEN="[id bot telegram]:[token bot telegram]"
+CHAT_ID="6071370488"
+BOT_TOKEN="7692038361:AAFCr22TYGDUh_zPCzZOZZYXToJbwDQUf3c"
 IMAGE_PATH="out/arch/arm64/boot/Image.gz"
 BUILD_HOST="Vpc"
 BUILD_USER="VelocityFox22"
 
 # =========[ Path Toolchain ]=========
 GCC_PATH="$(pwd)/toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-"
-CLANG_PATH="$(pwd)/toolchain/llvm-arm-toolchain-ship/10.0/bin/clang"
+CLANG_PATH="$(pwd)/toolchain/clang-r416183b/bin/clang"
 CLANG_TRIPLE="aarch64-linux-gnu-"
 
 # =========[ Env Kernel Make ]=========

@@ -197,3 +197,4 @@ static inline void sec_debug_save_core_reg(struct sec_debug_core_t *core_reg)
 #endif /* defined(CONFIG_ARM64) && defined(CONFIG_SEC_DEBUG) */
 
 #endif /* SEC_DEBUG_ARM64_H */
+

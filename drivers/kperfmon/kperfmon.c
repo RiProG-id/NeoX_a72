@@ -23,7 +23,7 @@
 #include <linux/workqueue.h>
 #include <linux/slab.h>
 #include <linux/sec_debug.h>
-#include <linux/perflog.h>
+// #include <linux/perflog.h>
 #if !defined(KPERFMON_KMALLOC)
 #include <linux/vmalloc.h>
 #endif
@@ -33,6 +33,10 @@
 #include <asm/stacktrace.h>
 
 #include "kperfmon.h"
+
+/* Dummy define for missing perflog.h */
+#define PERFLOG_HEADER_SIZE 64
+//#define PERFLOG_BUFF_STR_MAX_SIZE 255
 
 #define	PROC_NAME			"kperfmon"
 #if defined(KPERFMON_KMALLOC)
