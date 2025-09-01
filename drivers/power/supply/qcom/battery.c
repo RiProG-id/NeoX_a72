@@ -49,6 +49,7 @@
 #define FCC_STEPPER_VOTER		"FCC_STEPPER_VOTER"
 #define MAIN_FCC_VOTER			"MAIN_FCC_VOTER"
 #define PD_VOTER			"PD_VOTER"
+#define FCC_VOTER			 "FCC_VOTER"
 
 struct pl_data {
 	int			pl_mode;
