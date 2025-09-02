@@ -20,8 +20,8 @@ log_error()   { echo -e "${RED}[ERR]${RESET} $1"; }
 
 # =========[ Konfigurasi Awal ]=========
 CONFIG="a72q_eur_open_defconfig"
-CHAT_ID="6071370488"
-BOT_TOKEN="7692038361:AAFCr22TYGDUh_zPCzZOZZYXToJbwDQUf3c"
+CHAT_ID="[Your Id Telegram"
+BOT_TOKEN="[Id Bot Telegram]:[Your Bot Token]"
 IMAGE_PATH="out/arch/arm64/boot/Image.gz"
 BUILD_HOST="Npc"
 BUILD_USER="VelocityFox22"
